@@ -11,43 +11,6 @@ colors = ["red", "orange", "yellow", "green", "blue", "violet"]
 y_positions = [-150, -90, -30, 30, 90, 150]
 all_turtles = []  # to store multiple turtle instances. Each instances having different states.
 
-# # first object instance
-# aayam = Turtle(shape="turtle")
-# aayam.color(colors[0])
-# aayam.penup()
-# aayam.goto(x=-235, y=-150)
-#
-# # second object instance
-# kanchan = Turtle(shape="turtle")
-# kanchan.color(colors[5])
-# kanchan.penup()
-# kanchan.goto(x=-235, y=-90)
-#
-# # third object instance
-# brinda = Turtle(shape="turtle")
-# brinda.color(colors[1])
-# brinda.penup()
-# brinda.goto(x=-235, y=-30)
-#
-# # forth object instance
-# bishnu = Turtle(shape="turtle")
-# bishnu.color(colors[2])
-# bishnu.penup()
-# bishnu.goto(x=-235, y=30)
-#
-# # fifth object instance
-# gopal = Turtle(shape="turtle")
-# gopal.color(colors[3])
-# gopal.penup()
-# gopal.goto(x=-235, y=90)
-#
-# # sixth object instance
-# rojina = Turtle(shape="turtle")
-# rojina.color(colors[4])
-# rojina.penup()
-# rojina.goto(x=-235, y=150)
-
-
 # Or we can create many objects having same name using for loop as follows.
 # here 6 objects named timmy will be created.
 for turtle_index in range(0, 6):
